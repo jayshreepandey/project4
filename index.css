@@ -1,0 +1,214 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+.main{
+    position:sticky;
+    padding:6px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+li{
+    padding: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+}
+li:hover{
+    background-color: #c6c0c0;
+}
+#logo{
+    float: left;
+    padding:15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color:black;
+}
+.bg{
+    background-image:url(architect1.jpg) ;
+    background-size: cover;
+    background-position: bottom;
+    height:70vh;
+    width:100%;
+}
+.content{
+    position: absolute;
+    top:34%;
+    left:44%;
+    font-size: 48px;
+    color:whitesmoke;
+    text-transform: capitalize;
+}
+#box1{
+    background-color:BLACK;
+    padding:15px;
+    color:white;
+    font-weight: bold;
+}
+.abc{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+.main{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    position: relative;
+    width:280px;
+}
+h1{
+    position: absolute;
+    top: 0%;
+    background-color: black;
+    color:white;
+    font-size: 25px;
+}
+.jaya{
+    text-transform: capitalize;
+}
+
+.maincard{
+    display:flex;
+    justify-content:space-evenly;
+}
+.cards{
+    width:280px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.cards>img{
+    filter: grayscale(1);
+}
+section{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:95%;
+    margin:auto;
+}
+/* section>h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+} */
+.para{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+small{
+    font-size: 20px;
+}
+.cards>p{
+    margin-top:20px;
+}
+.cards>a>button{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border:none;
+    width:100%;
+    margin-top:20px;
+}
+.cards>a>button:hover{
+    background-color: rgb(178,167,167);
+}
+.jp{
+    width:95%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+/* section>h3{
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+.pj{
+    width:95%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.pj>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input{
+    padding:15px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    width:95%;
+    font-size: 20px;
+}
+button{
+    padding:10px;
+    background-color: black;
+    color:white;
+    margin-top:10px;
+    width:200px;
+    text-transform: uppercase;
+}
+.cp{
+     width:100%;
+    height:30px;
+    background-color: black;
+    color: white;
+    margin-top:15px ;
+    text-align: center;
+    font-size: 20px;
+}
+/* sm */
+@media screen and (max-width:500px) {
+    .main,.maincard{
+        display:block;
+    }
+    .card,.cards{
+        width:100%;
+    }
+    .navbar>ul{
+        display:none;
+    }
+}
+/* md */
+@media screen and (min-width:768px) {
+    .card,.cards{
+        width:160px;
+    } 
+    
+}
+/* lg */
+/* @media screen and (min-width:992px) {
+    .card,.cards{
+        width:280px;
+    }
+    body{
+        background-color: rgb(243, 174, 174);
+    }
+} */
+@media screen and (min-width:1024px) {
+    .card,.cards{
+        width:230px;
+    }
+    body{
+        /* background-color: red; */
+    }
+}
+
